@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
 import PrivacyProtection from '../components/PrivacyProtection.vue'
 import PrivacyHandling_ABC from '../components/PrivacyHandling_ABC.vue'
+import PrivacyHandling_NOTOteMA from '../components/PrivacyHandling_NOTOteMA.vue'
+import SCT_NOTOteMA from '../components/SCT_NOTOteMA.vue'
 import Terms_CareeTern from '../components/Terms_CareeTern.vue'
 import PrivacyHandling_CareeTern from '../components/PrivacyHandling_CareeTern.vue'
 import ExclusionASF_CareeTern from '../components/ExclusionASF_CareeTern.vue'
@@ -23,8 +25,20 @@ const routes = [
   // asianbridge.co.jp
   {
     path: '/privacy-handling/abc/',
-    name: '個人情報の取り扱いについて | 株式会社Asian Bridge',
+    name: '特定商取引法に基づく表記 | 株式会社Asian Bridge',
     component: PrivacyHandling_ABC,
+  },
+
+  // NOTOteMA
+  {
+    path: '/privacy-handling/nototema/',
+    name: '個人情報の取り扱いについて | NOTOteMA (ノトテマ)',
+    component: PrivacyHandling_NOTOteMA,
+  },
+  {
+    path: '/sct/nototema/',
+    name: '特定商取引法に基づく表記 | NOTOteMA (ノトテマ)',
+    component: SCT_NOTOteMA,
   },
 
   // CareeTern
