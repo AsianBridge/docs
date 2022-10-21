@@ -15,10 +15,12 @@
   @apply xl:w-1/2;
   @apply mx-auto;
   @apply my-8;
+  @apply text-sm;
 
   // 見出し
   h2,
-  h3 {
+  h3,
+  h4 {
     @apply font-semibold;
     @apply text-slate-900;
   }
@@ -26,7 +28,6 @@
     @apply mb-4;
     @apply text-2xl;
   }
-
   h3 {
     @apply mt-4;
     @apply mb-2;
@@ -34,6 +35,10 @@
     @apply border-t;
     @apply border-slate-300;
     @apply text-lg;
+  }
+  h4 {
+    @apply mt-4;
+    @apply mb-2;
   }
 
   // 区切り線
@@ -59,5 +64,13 @@
   }
   li {
     @apply my-1;
+  }
+
+  // リンク
+  a {
+    @apply text-blue-600;
+    @apply hover:text-blue-700;
+    @apply hover:underline;
+    @apply hover:decoration-solid;
   }
 }

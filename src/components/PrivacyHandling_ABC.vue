@@ -1,16 +1,16 @@
 <script>
-import ABPrivacyProtection from '../docs/ABPrivacyProtection.md'
+import PrivacyHandling_ABC from '../docs/PrivacyHandling_ABC.md'
 
 export default {
   components: {
-    ABPrivacyProtection,
+    PrivacyHandling_ABC,
   },
 }
 </script>
 
 <template>
   <main>
-    <ABPrivacyProtection />
+    <PrivacyHandling_ABC />
   </main>
 </template>
 

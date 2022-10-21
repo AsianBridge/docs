@@ -1,16 +1,16 @@
 <script>
-import ABPrivacyHandling from '../docs/ABPrivacyHandling.md'
+import Terms_SportsBank from '../docs/Terms_SportsBank.md'
 
 export default {
   components: {
-    ABPrivacyHandling,
+    Terms_SportsBank,
   },
 }
 </script>
 
 <template>
   <main>
-    <ABPrivacyHandling />
+    <Terms_SportsBank />
   </main>
 </template>
 
