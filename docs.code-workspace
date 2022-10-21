@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		},
+		{
+			"name": "docs"
+			"path": "./src/docs"
+		},
+		{
+			"path": "./src"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,10 @@
+root = false
+
+[*]
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+
+[*.{js,json,html,scss,css,vue}]
+indent_style = space
+indent_size = 2
