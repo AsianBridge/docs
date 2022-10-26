@@ -1,17 +1,7 @@
-<script>
-import HelloWorld from '../docs/HelloWorld.md'
-
-export default {
-  components: {
-    HelloWorld,
-  },
-}
+<script setup>
+document.location = 'https://asianbridge.co.jp/'
 </script>
 
-<template>
-  <main>
-    <HelloWorld />
-  </main>
-</template>
+<template></template>
 
 <style scoped></style>
