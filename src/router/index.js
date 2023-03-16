@@ -7,6 +7,7 @@ import SCT_NOTOteMA from '../components/SCT_NOTOteMA.vue'
 import Terms_CareeTern from '../components/Terms_CareeTern.vue'
 import PrivacyHandling_CareeTern from '../components/PrivacyHandling_CareeTern.vue'
 import ExclusionASF_CareeTern from '../components/ExclusionASF_CareeTern.vue'
+import StipulationTenant_CareeTern from '../components/StipulationTenant_CareeTern.vue'
 import Terms_SportsBank from '../components/Terms_SportsBank.vue'
 import PrivacyHandling_SportsBank from '../components/PrivacyHandling_SportsBank.vue'
 
@@ -56,6 +57,11 @@ const routes = [
     path: '/exclusion-asf/careetern',
     name: '反社会勢力の排除に関する誓約書 | CareeTern (キャリターン)',
     component: ExclusionASF_CareeTern,
+  },
+  {
+    path: '/stipulation_tenant/careetern',
+    name: '利用約款(掲載企業向け) | CareeTern (キャリターン)',
+    component: StipulationTenant_CareeTern,
   },
 
   // Sports Bank
