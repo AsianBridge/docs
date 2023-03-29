@@ -8,6 +8,7 @@ import Terms_CareeTern from '../components/Terms_CareeTern.vue'
 import PrivacyHandling_CareeTern from '../components/PrivacyHandling_CareeTern.vue'
 import ExclusionASF_CareeTern from '../components/ExclusionASF_CareeTern.vue'
 import StipulationTenant_CareeTern from '../components/StipulationTenant_CareeTern.vue'
+import EULA_SportsBank from '../components/EULA_SportsBank.vue'
 import Terms_SportsBank from '../components/Terms_SportsBank.vue'
 import PrivacyHandling_SportsBank from '../components/PrivacyHandling_SportsBank.vue'
 
@@ -66,8 +67,13 @@ const routes = [
 
   // Sports Bank
   {
+    path: '/eula/sportsbank',
+    name: 'スポーツバンク エンドユーザーライセンス契約 | Sports Bank (スポーツバンク)',
+    component: EULA_SportsBank,
+  },
+  {
     path: '/terms/sportsbank',
-    name: '利用規約 | Sports Bank (スポーツバンク)',
+    name: 'スポーツバンク会員利用規約 | Sports Bank (スポーツバンク)',
     component: Terms_SportsBank,
   },
   {
